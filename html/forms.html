@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="/" method="post">
+            <div class="form-group">
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname" style="text-align: center;"
+                    placeholder="Enter your first name" required>
+                <!-- <br><br> -->
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name: </label>
+                <input style="text-align: center;" type="text" name="lastname" placeholder="Enter your last name"
+                    id="lastname">
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" style="text-align: center;" placeholder="Enter your email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="password">E-mail: </label>
+                <input type="password" name="password" placeholder="Enter password" style="text-align: center;"
+                    id="password">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender: </label>
+                <div class="genderGroup">
+                    <label for="gender"><input type="radio" name="gender" id="gender">Male </label>
+                    <label for="password"><input type="radio" name="gender" id="gender">Female </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="gender">Hobbies: </label>
+                <div class="hobbiesGroup">
+                    <label for="hobby"><input type="checkbox" name="Cricket" id="Cricket">Cricket </label>
+                    <label for="password"><input type="checkbox" name="Baseball" id="Baseball">Baseball </label>
+                    <label for="password"><input type="checkbox" name="Reading" id="Reading">Reading </label>
+                    <label for="password"><input type="checkbox" name="Writting" id="Writting">Writting </label>
+                    <label for="password"><input type="checkbox" name="Travelling" id="Travelling">Writting </label>
+                    <label for="password"><input type="checkbox" name="Coding" id="Coding">Coding </label>
+                    <br>
+                    <label for="password">Other<input type="Select" name="Select" id="Select"></label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="selections">
+                    <label for="Country">Country</label>
+                    <select name="Country" id="Country">
+                        <option value="">Select Your Country</option>
+                        <option value="IN">INDIA</option>
+                        <option value="CN">CANADA</option>
+                        <option value="AU">AUSTRALIA</option>
+                        <option value="UK" selected>UNITED KINGDOM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text-area">Tell us about yourself: </label>
+                <textarea name="info" id="info" placeholder="tell us about yourself" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

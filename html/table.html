@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-08">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        th,
+        td,
+        table {
+            border: black 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML TABLES</h1>
+    <table cellpadding="50" cellspacing="50">
+        <thead>
+            <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+            <th>Col 4</th>
+        </thead>
+        <tbody>
+            <tr>
+                <caption>Sample Data Table</caption>
+                <td>1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td colspan="2">3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td colspan="2">3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>End of Data</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
