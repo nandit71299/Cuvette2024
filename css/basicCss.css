@@ -1,0 +1,37 @@
+/* .box {
+    margin: 20px;
+}
+
+.box1 {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+    border: 20px solid red;
+}
+
+.box2 {
+    background-color: rgb(255, 0, 162);
+    height: 100px;
+    width: 200px;
+    border: 20px solid red;
+}
+
+.box3 {
+    background-color: green;
+    border: 20px solid red;
+    height: 100px;
+    width: 200px;
+}
+
+/* 
+ .box:nth-child(1){
+    background-color: red;
+} */
+
+/* div:first-child{
+    color: white;
+}  */
+
+.content:first-child {
+    background-color: rgb(255, 0, 0);
+}
