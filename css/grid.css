@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 100px 100px;
@@ -13,9 +13,76 @@
     color: white;
     display: flex;
     align-items: center;
+}*/
 
+
+/* .gridContainer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat(5, 100px);
+    gap: 200px 200px;
+    background-color: lime;
+    gap: 100px;
+    padding: 20px;
 }
 
-.item1 {
+.item {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.item1,
+.item2,
+.item3 {
+    background-color: aqua;
+}
+
+.item4,
+.item5,
+.item6 {
     background-color: red;
 }
+
+.item7,
+.item8,
+.item9 {
+    background-color: yellow;
+}
+
+.item10,
+.item11,
+.item12 {
+    background-color: gray;
+}
+
+
+.item5 {
+    grid-column: 1/4;
+} */
+
+
+.gridContainer {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "
+ header header header
+        sidebar main main
+        sidebar footer footer
+        ";
+
+}
+
+.item {
+    background-color: lightblue;
+}
+
+.header {
+    grid-area: 'header';
+}
+
+.main {}
+
+.sidebar {}
+
+.footer {}
