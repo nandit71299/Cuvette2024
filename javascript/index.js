@@ -57,12 +57,66 @@ const fruits = new Array('apple', 'banana', 'cherry');
 // })
 // console.log(a)
 
+
+
 // const greet = function () {
 //     return a = 1;
 // }
 
 // greet()
 
-setTimeout(() => {
-    return a; // Return the current element so the map function works correctly
-}, 1000);
+// setTimeout(() => {
+//     return a; // Return the current element so the map function works correctly
+// }, 1000);
+
+
+// JAVASCRIPT OBJECTS
+
+const customer = {
+};
+customer.name = 'nick';
+customer.surname = 'idk';
+customer.age = 36;
+// customer['number'] = 'num'
+// console.log(customer)
+
+// DELETING FROM OBJECTS
+// delete customer.name;
+// console.log(customer)
+
+const leads = {
+}
+leads.name = 'nick2'
+leads.surname = 'idk2'
+leads.age = 2;
+
+
+//MERGING OBJECTS
+// const newObj = Object.assign([], customer, leads)
+// console.log(newObj)
+// console.log({ ...customer, ...leads })
+
+
+// ITERATING OVER OBJECTS
+// for (const cstmer in customer) {
+//     console.log(cstmer, ':', customer[cstmer])
+// }
+// for (const cstmer of customer) {
+//     console.log(cstmer, ':', customer[cstmer])
+// }
+
+
+// const keys = Object.keys(leads);
+// console.log(keys)
+
+// const values = Object.values(leads);
+// console.log(values)
+
+
+const entries = Object.entries(leads);
+console.log(entries)
+
+// Looping over array of objects and getting key and values
+// entries.forEach(([key, value]) => {
+//     console.log(value)
+// });
