@@ -114,7 +114,7 @@ leads.age = 2;
 
 
 const entries = Object.entries(leads);
-console.log(entries)
+// console.log(entries)
 
 // Looping over array of objects and getting key and values
 // entries.forEach(([key, value]) => {
