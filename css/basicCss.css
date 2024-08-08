@@ -32,6 +32,60 @@
     color: white;
 }  */
 
-.content:first-child {
+/* .content:first-child {
     background-color: rgb(255, 0, 0);
+} */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid #000;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 10s steps(100, end), blink-caret .75s step-end infinite;
+    font-size: 24px;
+    color: #333;
+    max-width: 90vw;
+    /* Ensures the text container does not exceed viewport width */
+    word-wrap: break-word;
+    /* Breaks long words to fit within the container */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #000;
+    }
+}
+
+.typewriter-text {
+    display: inline-block;
+    white-space: normal;
+    /* Allows text to wrap */
 }
